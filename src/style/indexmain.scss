@@ -601,9 +601,11 @@ header {
   border-collapse: collapse;
   margin-left: -1px;
   margin-right: -1px;
-  & + & {
+
+  &:hover {
     //margin-left: -1px;
     //margin-top: -1px;
+    border: 1px solid #ffc84a;
   }
   img {
     margin: 0 auto;
@@ -658,7 +660,7 @@ header {
   display: flex;
   overflow: hidden;
   transition: transform .5s linear;
-  margin-bottom: -10rem;
+  margin-bottom: -12vw;
 }
 
 .bricks_text_img {
